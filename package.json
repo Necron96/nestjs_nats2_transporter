@@ -1,0 +1,32 @@
+{
+  "name": "nestjs_nats2_transporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Necron96/nestjs_nats2_transporter.git"
+  },
+  "keywords": [
+    "Nest.js",
+    "Nats2"
+  ],
+  "author": "Teplukhin Vladislav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Necron96/nestjs_nats2_transporter/issues"
+  },
+  "homepage": "https://github.com/Necron96/nestjs_nats2_transporter#readme",
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "@nestjs/microservices": "^7.6.17",
+    "nats": "^2.0.6",
+    "rxjs": "^6.6.7"
+  }
+}
